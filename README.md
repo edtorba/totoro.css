@@ -12,6 +12,9 @@ totoro.css is compatible with recent versions of:
 - Opera
 - Internet Explorer 11
 
+## Why totoro.css?
+totoro.css leaves a minimal footprint, which means that it does not provide any UI components, instead, think of it as the backbone of your CSS. As it's intention is to provide manageable and pain-free architecture.
+
 ## Installation
 Todo
 
