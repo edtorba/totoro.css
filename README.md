@@ -2,7 +2,7 @@
 totoro.css is a scalable, BEM, Sass-based, OOCSS framework. Designed to help developers to organise their front-end development architecture. In other words, trying to make it suck less.
 
 ## Browser support
-totoro.css relies on [autoprefixer](https://github.com/postcss/autoprefixer). to make features compatime with legacy browsers. It also takes advantage of [normalise.css](http://necolas.github.io/normalize.css/), [sass-mq](https://github.com/sass-mq/sass-mq) to compose media queries and global box-sizing.
+totoro.css relies on [autoprefixer](https://github.com/postcss/autoprefixer) to make features compatible with legacy browsers. It also takes advantage of [normalise.css](http://necolas.github.io/normalize.css/), [sass-mq](https://github.com/sass-mq/sass-mq) to compose media queries and global box-sizing.
 
 totoro.css is compatible with recent versions of:
 - Safari
