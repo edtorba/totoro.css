@@ -56,3 +56,11 @@ typings/
 
 # dotenv environment variables file
 .env
+
+# Mac files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
