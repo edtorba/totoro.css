@@ -1,0 +1,27 @@
+{
+  "name": "tests",
+  "version": "1.0.0",
+  "description": "Scalable, BEM, Sass-based, OOCSS framework.",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edtorba/totoro.css.git"
+  },
+  "author": "Eduards Torba",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edtorba/totoro.css/issues"
+  },
+  "homepage": "https://github.com/edtorba/totoro.css#readme",
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-cli": "^2.0.1",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-webserver": "^0.9.1"
+  }
+}

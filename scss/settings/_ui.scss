@@ -1,0 +1,64 @@
+// $UI
+//
+// Global project-wide variables.
+
+// UI Colours.
+:root {
+  --color-success: green;
+  --color-warning: yellow;
+  --color-error: red;
+  --color-info: blue;
+
+  --font-color-primary: grey;
+  --font-color-secondary: orange;
+
+  --heading-color: black;
+
+  --link-color-primary: red;
+  --link-color-interactive: pink;
+  --link-color-visited: purple;
+
+  --button-color-primary: white;
+  --button-color-secondary: black;
+  --button-background-primary: black;
+  --button-background-secondary: green;
+
+  --background-primary: tomato;
+  --background-secondary: lime;
+}
+
+
+// Typography settings.
+:root {
+  --font-family-primary: Arial;
+  --font-family-secondary: sans-serif;
+  --font-size-primary: 16; // In pixels.
+  --font-size-secondary: 13; // In pixels.
+  --base-line-height: 1.5;
+  --font-scale-unit: 1.414; // Rate of growth for headings.
+}
+
+
+// Transition settings.
+$transition-timing-function: ease-in-out !default;
+$transition-duration: 0.2s !default;
+
+
+// z-index chaos.
+:root {
+  --z-root: 0;
+  --z-page-content: 10;
+  --z-navigation: 20;
+  --z-navigation-fixed: 25;
+  --z-dropdown: 30;
+  --z-popover: 40;
+  --z-tooltip: 50;
+  --z-modal-background: 60;
+  --z-modal: 70;
+}
+
+
+// Other UI related settings.
+:root {
+  --radius-unit: 3px;
+}

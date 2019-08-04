@@ -1,0 +1,28 @@
+// Version: 0.0.0
+
+@import 'scss/settings/_all';
+@import '_default';
+
+// Tools
+// Helpers, mixins and functions.
+@import 'scss/tools/_all';
+
+// Generic
+// Ground-zero styles, normalize, box-sizing.
+@import 'scss/generic/_all';
+
+// Elements
+// Unclassed DOM elements.
+@import 'scss/elements/_all';
+
+// Objects
+// Cosmetic-free design patterns.
+@import 'scss/objects/_all';
+
+// Components
+// Designed components.
+@import 'scss/components/_all';
+
+// Utilities
+// Helpers and overrides.
+@import 'scss/utilities/_all';

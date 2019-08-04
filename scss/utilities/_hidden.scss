@@ -1,0 +1,55 @@
+// $HIDE
+//
+// Hide visually and from screen readers.
+.u-hidden {
+  display: none !important;
+}
+
+
+// Hide only visually, but have it available for screen readers.
+// Source:
+// https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+//
+// 1. For long content, line feeds are not interpreted as spaces and small width
+// causes content to wrap 1 word per line.
+// Source:
+// https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
+//
+// Taken from: h5bp
+.u-hidden-visually {
+  border: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  white-space: nowrap; /* [1] */
+
+
+  // Extend the `u-hidden-visually` class to allow the element to be focusable
+  // when navigated to via keyboard.
+  // Source:
+  // https://www.drupal.org/node/897638
+  //
+  // Taken from: h5bp
+  &--focusable:active,
+  &--focusable:focus {
+    clip: auto;
+    clip-path: none;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+    white-space: inherit;
+  }
+}
+
+
+// Hide visually and from screen readers, but maintain layout.
+.u-hidden-invisible {
+  visibility: hidden;
+}

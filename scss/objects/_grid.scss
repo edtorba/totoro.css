@@ -1,0 +1,18 @@
+// $GRID
+//
+// Fluid and nestable grid system.
+.o-grid {
+  display: block;
+
+  @if (variable-exists(mq-breakpoints)) {
+    @include mq($from: mobile) {
+      display: flex;
+    }
+  }
+}
+
+  .o-grid__column {
+    flex-basis: 0; // Width
+    flex-grow: 1;  // Allow grow
+    flex-shrink: 1; // Allow shrink
+  }

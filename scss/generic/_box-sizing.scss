@@ -1,0 +1,15 @@
+// $BOX-SIZING
+//
+// Apply universal box sizing layout model to all elements. The width you set is the width you get.
+//
+// Source @real_css_tricks
+// https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}

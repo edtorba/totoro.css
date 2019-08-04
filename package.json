@@ -1,0 +1,36 @@
+{
+  "name": "totoro.css",
+  "version": "0.1.0",
+  "description": "Scalable, BEM, SASS-based, OOCSS framework.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edtorba/totoro.css.git"
+  },
+  "keywords": [
+    "css",
+    "scss",
+    "sass",
+    "bem",
+    "oocss",
+    "flexbox",
+    "css4"
+  ],
+  "author": "Eduards Torba",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/edtorba/totoro.css/issues"
+  },
+  "homepage": "https://github.com/edtorba/totoro.css#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "normalize.css": "^8.0.1",
+    "sass-mq": "^5.0.0"
+  }
+}

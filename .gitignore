@@ -64,3 +64,6 @@ typings/
 
 # Thumbnails
 ._*
+
+# Project files.
+_default.scss

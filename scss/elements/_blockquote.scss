@@ -1,0 +1,8 @@
+// $BLOCKQUOTE
+blockquote {
+  margin: var(--spacing-unit);
+
+  &:first-child {
+    margin-top: 0;
+  }
+}

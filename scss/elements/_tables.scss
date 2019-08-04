@@ -1,0 +1,15 @@
+// $TABLES
+table {
+  border-spacing: 0px;
+  border-collapse: collapse;
+
+  &:not(:last-child) {
+    margin-bottom: var(--spacing-unit);
+  }
+}
+
+td,
+th {
+  padding: 0;
+  line-height: calc(var(--base-line-height) * var(--font-size-primary))rem;
+}

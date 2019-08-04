@@ -1,0 +1,48 @@
+// $HEADINGS
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-family-secondary);
+  color: var(--heading-color);
+
+  &:not(:first-child) {
+    margin-top: calc(var(--base-line-height) * 1rem);
+  }
+}
+
+h1 {
+  font-size: calc(2.5 * var(--font-scale-unit) * 1rem);
+  line-height: calc(2.5 * var(--base-line-height) * 1rem);
+
+  &:not(:first-child) {
+    margin-top: calc(2 * var(--base-line-height));
+  }
+}
+
+h2 {
+  font-size: calc(2 * var(--font-scale-unit) * 1rem);
+  line-height: calc(2 * var(--base-line-height) * 1rem);
+
+  &:not(:first-child) {
+    margin-top: calc(2 * var(--base-line-height));
+  }
+}
+
+h3 {
+  font-size: calc(1 * var(--font-scale-unit) * 1rem);
+}
+
+h4 {
+  font-size: calc(var(--font-scale-unit) / 1.5 * 1rem);
+}
+
+h5 {
+  font-size: calc(var(--font-scale-unit) / 2 * 1rem);
+}
+
+h6 {
+  font-size: calc(var(--font-scale-unit) / 2.5 * 1rem);
+}

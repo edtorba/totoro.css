@@ -1,0 +1,18 @@
+// $LINKS
+a {
+  color: var(--link-color-primary);
+  text-decoration: none;
+  transition: all $transition-timing-function $transition-duration;
+}
+
+  a:hover,
+  a:focus {
+    color: var(--link-color-interactive);
+  }
+
+  // Not everyone uses it, but it's a good UI practice.
+  // In case if you don't want to use it, simply remove this
+  // declaration.
+  a:visited {
+    color: var(--link-color-visited);
+  }

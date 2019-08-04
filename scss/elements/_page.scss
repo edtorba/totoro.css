@@ -1,0 +1,18 @@
+// $PAGE
+//
+// Page-level setup.
+//
+// 1. Force scrollbar to always be visible, to prevent `jumps`.
+// 2. Ensure the page always fills at least the entire viewport height.
+
+html {
+  overflow-y: scroll; /* [1] */
+  min-height: 100%; /* [1] */
+}
+
+body {
+  font-family: var(--font-family-primary);
+  font-size: calc(var(--font-size-primary) / 16 * 100%);
+  line-height: var(--base-line-height);
+  color: var(--font-color-primary);
+}

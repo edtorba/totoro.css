@@ -1,0 +1,19 @@
+// $CLEARFIX
+//
+// Extend the clearfix class with Sass to avoid the `.u-clearfix` class
+// appearing over and over in your markup.
+//
+// Source:
+// https://css-tricks.com/snippets/css/clear-fix/
+.u-clearfix,
+%u-clearfix {
+  &:before,
+  &:after {
+    content: " "; /* [1] */
+    display: table; /* [2] */
+  }
+
+  &:after {
+    clear: both;
+  }
+}

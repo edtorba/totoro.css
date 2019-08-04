@@ -1,0 +1,41 @@
+// $CORE
+//
+// Core framework variables.
+
+// Dev mode.
+// Enable all dev diagnostics and helper tools.
+$dev-mode: true !default;
+
+// Diagnostics.
+// Find mistakes in HTML and highlight the them.
+$diagnostics: false !default;
+
+@if $dev-mode == true {
+  $diagnostics: true;
+
+  @if (variable-exists(mq-breakpoints)) {
+    @include mq-show-breakpoints;
+  }
+}
+
+
+
+
+
+// Spacing values, determined on your baseline grid.
+:root {
+  --spacing-unit: 26px;
+}
+
+$spacing-unit-factor-tiny: 0.25 !default;
+$spacing-unit-factor-small: 0.5 !default;
+$spacing-unit-factor-large: 2 !default;
+$spacing-unit-factor-huge: 4 !default;
+
+// Maths, do not alter.
+:root {
+  --spacing-unit-tiny: calc(var(--spacing-unit) * #{$spacing-unit-factor-tiny});
+  --spacing-unit-small: calc(var(--spacing-unit) * #{$spacing-unit-factor-small});
+  --spacing-unit-large: calc(var(--spacing-unit) * #{$spacing-unit-factor-large});
+  --spacing-unit-huge: calc(var(--spacing-unit) * #{$spacing-unit-factor-huge});
+}
